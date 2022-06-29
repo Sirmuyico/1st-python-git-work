@@ -279,6 +279,14 @@
 # #print( " , ".join(a))
 
 
-birth_year = int(input('input ur birth year: '))
-new_age = 2022 - birth_year
-print('your age is', new_age)
+# birth_year = int(input('input ur birth year: '))
+# new_age = 2022 - birth_year
+# print('your age is', new_age)
+
+
+def program(primitive, n):
+    final = primitive[n:]
+    return final
+
+print(program('final', 2))
+    

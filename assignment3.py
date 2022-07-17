@@ -14,7 +14,7 @@ random.shuffle(num)
 
 
 com_choice = random.choice(num)
-while guess < com_choice:
+while guess < number_of_trail:
         print("Welcome to my game")
         print("You can select from the list below.")
         print(num)
